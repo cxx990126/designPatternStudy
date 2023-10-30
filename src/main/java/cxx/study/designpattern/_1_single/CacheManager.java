@@ -10,7 +10,6 @@ public class CacheManager {
     private static CacheManager instance = new CacheManager();
 
     private CacheManager() {
-
     }
 
     public static CacheManager getInstance() {

@@ -12,8 +12,7 @@ public class FourSingle {
     }
 
     private static class StaticInnerClass {
-        private static FourSingle instance = new FourSingle() ;
-
+        private static FourSingle instance = new FourSingle();
     }
 
     public static FourSingle getInstance() {

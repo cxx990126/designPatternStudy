@@ -16,7 +16,7 @@ public class ThreeSingle {
 
     }
 
-    public static ThreeSingle getInstance() {
+    public static synchronized ThreeSingle getInstance() {
         if (instance == null) {
             synchronized (ThreeSingle.class) {
                 if (instance == null) {
